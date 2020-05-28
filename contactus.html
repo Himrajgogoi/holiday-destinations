@@ -1,0 +1,199 @@
+<!!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-to-scale=1,shrink-to-fit=no">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <title>aboutus</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">Holiday destinations</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html"> <span class="fa fa-home fa-lg"></span> Home</a>
+                    </li>
+                    <li class="nav-item "><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About us</a></li>
+                    <li class="nav-item "><a class="nav-link" href="#"><span class="fa fa-suitcase fa-lg"></span> Packages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-phone fa-lg"></span> Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-6">
+                    <h1><b><u>Holiday Destinations</u></b></h1>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <div class="row">
+            <ol class="col-12 breadcrumb">
+                <li class="breadcrumb-item">Home</li>
+                <li class="breadcrumb-item">About us</li>
+                <li class="breadcrumb-item active"><a href="#">Contact</a></li>
+
+
+            </ol>
+            <div class="col-6 col-sm-6">
+                <h3><b>Contactus</b></h3>
+            </div>
+            <div class="col-6 col-sm-5 offset-sm-1">
+                <h3><b>Our Location</b></h3>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-12 col-sm-7">
+                <p>Our contact info has been mentioned below. You can call us or reach us through fax and email as well. </p>
+                <i class="fa fa-phone fa-lg"></i> +91 ********90<br>
+                <i class="fa fa-fax fa-lg"></i><a href="#"> fax@</a><br>
+                <i class="fa fa-envelope fa-lg"></i><a href="#"> holiday@net</a><br>
+                <div class="btn-group-justified" role="group">
+                    <a role="button" class="btn btn-primary" href="+91 ********90"><i class="fa fa-phone fa-lg"></i> Call</a>
+                    <a role="button" class="btn btn-success" href="#"><i class="fa fa-fax fa-lg"></i> Fax</a>
+                    <a role="button" class="btn btn-danger" href="#"><i class="fa fa-envelope fa-lg"></i> Mail</a>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="row row-content">
+            <div class="col-12">
+                <h3>Send your queries</h3>
+            </div>
+
+            <form>
+                <div class="form-group row">
+
+                    <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+
+                    </div>
+                </div>
+                <div class="form-group row">
+
+                    <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+
+                    </div>
+
+                </div>
+
+                <div class="form-group row">
+
+                    <label for="telnum" class="col-12 col-md-2 col-form-label">Tel no.</label>
+
+                    <div class="col-5 col-md-3">
+                        <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
+                    </div>
+                    <div class="col-7 col-md-7">
+                        <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel no.">
+                    </div>
+
+                </div>
+                <div class="form-group row">
+
+                    <label for="emailid" class="col-md-2 col-form-label">Email ID</label>
+
+                    <div class=" col-md-10">
+                        <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-6 offset-md-2">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="approve" name="approve" value="">
+                            <label class="form-check-label" for="approve">
+                              <strong>May we contact you?</strong>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-3 offset-md-1">
+                        <select class="form-control">
+                            <option>Tel no.</option>
+                            <option>Email ID</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="form-group row">
+                    <label for="feedback" class="col-md-2 col-form-label">Your feedback</label>
+                    <div class="col-md-10">
+                        <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-6 offset-md-2">
+                        <button type="submit" class="btn btn-primary">Send feedback</button>
+                    </div>
+                </div>
+
+
+
+
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-6 col-sm-4">
+                    <address class=" address">
+                          <h6><b>Address:</b></h6>
+                          Broadway-east,<br>
+                          New York,<br>
+                          USA(18-5-2020)<br>
+                          <i class="fa fa-phone fa-lg" ></i>+91 ********90<br>
+                          <i class="fa fa-envelope fa-lg"></i><a href="#"> holiday@net</a><br>
+                          <i class="fa fa-fax fa-lg"></i><a href="#"> fax@</a><br>
+                        </address>
+                </div>
+                <div class="col-6 col-sm-5">
+                    <h6><b>Links:</b></h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="aboutus.html">aboutus</a></li>
+                        <li><a href="#">Packages</a></li>
+                        <li><a href="./contactus.html">contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="align-text-center">
+                        <a class="btn btn-social-icon btn-google" href="#"><i class="fa fa-google fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

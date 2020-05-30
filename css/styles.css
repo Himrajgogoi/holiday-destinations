@@ -44,3 +44,11 @@
         border-bottom: 1px solid #ddd;
         padding: 10px;
     }
+    
+    .carousel-item {
+        background: purple;
+    }
+    
+    .crsl {
+        color: ghostwhite;
+    }

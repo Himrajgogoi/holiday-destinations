@@ -1,7 +1,6 @@
     .jumbotron {
         margin: 0px auto;
-        padding: 70px 20px 70px 20px;
-        background-color: lightcoral;
+        padding: 90px 20px 90px 20px;
         color: floralwhite;
     }
     
@@ -33,6 +32,10 @@
         background-color: navy;
     }
     
+    .navbar-dark {
+        background: black;
+    }
+    
     body {
         padding: 50px 0px 0px 0px;
         z-index: 0;
@@ -58,4 +61,11 @@
         position: absolute;
         bottom: 0px;
         z-index: 2;
+    }
+    
+    header {
+        background-image: url(https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
     }
